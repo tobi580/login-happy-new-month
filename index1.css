@@ -1,0 +1,114 @@
+body{
+    background:linear-gradient(to right, #000080, #4B0082);
+    background-blend-mode:soft-light;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+header{
+    height: 20%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+details{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 1000;
+    cursor: pointer;
+  
+}
+summary{
+      list-style-type: none;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+nav a{
+        color: whitesmoke;
+        text-decoration: none;
+}
+nav a:hover,nav a:active{
+    color: red;
+}
+header h1{
+    display: flex;
+        justify-content: center;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form{
+    width: 80%;
+    padding: 50px 0px 0px 20px;
+    display: flex;
+    color:red;
+    font-size: 20px;
+    flex-direction: column;
+}
+input{
+    border: none ;
+    border-bottom: 2px solid gray;
+    outline: none;
+    background-color: transparent;
+    margin: 10px;
+}
+input:focus{
+    border-bottom: 4px solid gray;
+}
+label{
+    padding-left: 10px;
+}
+.sign{
+    width: 80%;
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-image:linear-gradient(to right, #000080, #4B0082) ;
+    color:wheat;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+.sign:hover{
+    background: blue;
+    color:aliceblue;
+    border: transparent;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    border: transparent;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: whitesmoke;
+    color: gray;
+    margin-top: 25px;
+}
+p{
+    margin: 0;
+}
+.in{
+    text-decoration: none;
+    color: #000080;
+    font-size: 25px;
+    margin-top: 10px;
+}

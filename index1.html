@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing up</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Create Your Account
+        </h1>
+        <details>
+            <summary>...</summary>
+            <nav>
+                <a href="index.html">Home</a>
+            <a href="index1.html">Sign up</a>
+            <a href="index2.html">Sign in</a>
+            </nav>
+        </details>
+    </header>
+    <main>
+        <form action="index3.html" method="post">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="jane mill">
+            <label for="Gmail"  >Gmail</label>
+            <input type="email" id="Gmail" placeholder="example@gmail.com" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="01023456789"  maxlength="11" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" autocomplete="mobile">
+            <label for="password">Password</label>
+            <input type="password" id="password" required maxlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&]).{8,16}">
+            <label for="comfirmpassword">Confirm Password</label>
+            <input type="password" id="comfirmpassword" required maxlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&]).{8,}">
+
+            <a href="index3.html" class="sign">Sign UP</a>
+        </form>
+          <footer>
+        <p>Already Have an Account??</p>
+        <a href="index2.html" class="in">Sign In</a>
+    </footer>
+    </main>
+  
+</body>
+</html>

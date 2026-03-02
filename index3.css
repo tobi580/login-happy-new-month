@@ -1,0 +1,47 @@
+body{
+    background:linear-gradient(to right, #000080, #4B0082);
+    background-blend-mode:soft-light;
+    color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    height: 18%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+details{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 1000;
+    cursor: pointer;
+  
+}
+summary{
+      list-style-type: none;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+nav a{
+        color: whitesmoke;
+        text-decoration: none;
+}
+nav a:hover,nav a:active{
+    color: red;
+}
+main{
+    font-size: 23px;
+}
+h1{
+    margin: 0;
+}
